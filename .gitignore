@@ -1,0 +1,41 @@
+# ===== 编译产物（通用） =====
+*.o
+*.d
+*.crf
+*.hex
+*.bin
+*.elf
+*.axf
+*.map
+*.lnp
+*.dep
+*.iex
+*.htm
+*.build_log.htm
+*.scvd
+
+# ===== Keil MDK-ARM =====
+*.uvguix.*
+*.uvoptx
+/RTE/
+
+# ===== STM32CubeIDE =====
+Debug/
+Release/
+.settings/
+
+# ===== IAR EWARM =====
+settings/
+*.ewt
+*.pbd
+*.pbi
+
+# ===== VS Code =====
+.vscode/
+*.code-workspace
+
+# ===== 系统垃圾 =====
+Thumbs.db
+Desktop.ini
+*.bak
+*.tmp
